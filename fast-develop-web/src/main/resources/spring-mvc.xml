@@ -85,6 +85,13 @@
         </property>
     </bean>
 
+    <!--释放静态资源-->
+    <mvc:default-servlet-handler></mvc:default-servlet-handler>
+    <!--<mvc:resources mapping="/images/**" location="/statics/assets/images/"></mvc:resources>-->
+    <!--<mvc:resources mapping="/css/**" location="/statics/assets/css/"></mvc:resources>-->
+    <!--<mvc:resources mapping="/js/**" location="/statics/assets/js/"></mvc:resources>-->
+    <mvc:resources mapping="/assets/**" location="/statics/ace/assets/"></mvc:resources>
+
     <!-- JSP视图解析器  -->
     <bean id="viewResolverJsp" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/page/"/>

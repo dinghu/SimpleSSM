@@ -73,7 +73,7 @@
         <property name="patterns">
             <list>
                 <value>com.fast.develop.controller.*</value>
-                <value>com.fast.develop.service.*</value>
+                <value>com.fast.develop.com.fast.develop.service.*</value>
             </list>
         </property>
     </bean>
