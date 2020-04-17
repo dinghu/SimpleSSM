@@ -9,7 +9,7 @@
     <title>登录</title>
     <meta name="description" content="用户登录"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-
+    <%@include file="/WEB-INF/page/include/head.jsp" %>
 </head>
 
 <body class="login-layout blur-login">
