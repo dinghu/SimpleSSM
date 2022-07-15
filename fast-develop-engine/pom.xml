@@ -40,7 +40,7 @@
         <springfoxversion>2.2.2</springfoxversion>
         <webserver.port>8082</webserver.port>
         <jetty.version>7.6.14.v20131031</jetty.version>
-        <jackson.version>2.5.0</jackson.version>
+        <jackson.version>2.12.6.1</jackson.version>
     </properties>
 
     <!-- 阿里云maven仓库 -->
